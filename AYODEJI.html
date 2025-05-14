@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Ayodeji page </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  .hero {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+  .hero h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      .hero {
+  background: url('https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 20px;
+  padding: 100px 20px;
+  text-align: center;
+   text-shadow: 0 1px 1px black;
+}
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  .btn {
+      padding: 12px 30px;
+      background: #fff;
+      color: #667eea;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    text-shadow: none;
+    }
+
+    .btn:hover {
+      background: #ddd;
+    }
+  nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+      .features {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features h3 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .feature-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .feature {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+         align-items: center;
+        margin-top: 10px;
+      }
+    }
+        .features h3 {
+        font-size: 26px;
+      }
+    
+.testimonials {
+  background: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  gap: 30px;
+}
+
+.testimonial {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial h4 {
+  font-weight: bold;
+  color: #667eea;
+}
+  </style>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif;">
+
+  <nav style="display: flex; justify-content: space-between; align-items: center; background: #667eea; padding: 20px; color: white; position: relative;">
+    <div style="font-size: 20px; font-weight: bold;"> AYODEJI GRAPHICS </div>
+    <div style="font-size: 28px; cursor: pointer; display: none;" onclick="toggleMenu()" id="hamburger">☰</div>
+    <ul id="navLinks" style="list-style: none; display: flex; gap: 25px; margin: 0; padding: 0;">
+      <li><a href="home.html" style="color: white; text-decoration: none; font-weight: 500;">Home</a></li>
+      <li><a href="about.html" style="color: white; text-decoration: none; font-weight: 500;">About</a></li>
+      <li><a href="about.html" style="color: white; text-decoration: none; font-weight: 500;">Services</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to My World</h2>
+    <p>We Design with Purpose & Style.</p>
+    <a href="New.html" class="btn">Get Started</a>
+  </section>
+  
+    <section class="features">
+    <h3>What We Offer</h3>
+    <div class="feature-box">
+      <div class="feature">
+        <h2> BRANDING </h2>
+        <p>Creating unique, memorable brands that speak to your audience. Logo design, brand identity, and more.</p>
+      </div>
+      <div class="feature">
+        <h2> SOCIAL MEDIA DESIGN </h2>
+        <p> Creating visually stunning graphics for your social media channels. Graphics that get noticed and shared! </p>
+      </div>
+      <div class="feature">
+        <h2> FAST DELIVERY </h2>
+        <p>We design fast, clean and eyes catching designs in no time.</p>
+      </div>
+    </div>
+  </section>
+
+<section class="testimonials">
+  <h3>What Our Clients Say</h3>
+  <div class="testimonial-box">
+    <div class="testimonial">
+      <p>  </p>
+      <h4> - </h4>
+    </div>
+    <div class="testimonial">
+      <p> </p>
+      <h4> - </h4>
+    </div>
+    <div class="testimonial">
+      <p> </p>
+      <h4> - </h4>
+    </div>
+  </div>
+</section>
+
+  <footer style="background:#1a202c; color:white; padding: 40px 20px; font-family: Arial, sans-serif;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; max-width: 1000px; margin: auto;">
+    
+    <!-- About -->
+    <div style="flex:1; min-width:200px;">
+      <h3 style="margin-bottom: 10px;">About Us</h3>
+      <p style="margin:0;">We’re a team of creatives turning visions into digital Reality. Passion. Purpose. Pixels.</p>
+    </div>
+
+    <!-- Links -->
+    <div style="flex:1; min-width:200px;">
+      <h3 style="margin-bottom: 10px;">Quick Links</h3>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li><a href="home.html" style="color:white; text-decoration:none;">Home</a></li>
+        <li><a href="#about" style="color:white; text-decoration:none;">About</a></li>
+        <li><a href="#services" style="color:white; text-decoration:none;">Services</a></li>
+        <li><a href="#contact" style="color:white; text-decoration:none;">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+<div style="flex:1; min-width:200px;">
+      <h3 style="margin-bottom: 10px;">Contact Us</h3>
+<p><i  class="fas fa-phone" style="margin-right: 8px;"></i> +234 702 511 3434</p>
+<p><i class="fas fa-envelope" style="margin-right: 8px;"></i> ayodejifaloore@gmail.com</p>
+<p><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i> Osun State, Nigeria.</p>
+    </div>
+
+    <!-- Social -->
+    <div style="flex:1; min-width:200px;">
+      <h3 style="margin-bottom: 10px;">Follow Us</h3>
+      <p style="font-size: 20px;">
+        <a href="https://www.facebook.com/profile.php?id=100058825543786" style="color:white; text-decoration:none; margin-right:10px;"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/AFaloore?t=S3ZoLMSgsyGDkw_Avnghig&s=09" style="color:white; text-decoration:none; margin-right:10px;"> <i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_ayodejigraphics?igsh=YzljYTk1ODg3Zg==" style="color:white; text-decoration:none; margin-right:10px;"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/message/FWBQA462SGXQJ1" style="color:white; text-decoration:none;"><i class="fab fa-whatsapp"></i></a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div style="text-align:center; margin-top:30px; font-size:14px; border-top:1px solid #444; padding-top:20px;">
+    &copy; 2025 AYODEJI GRAPHICS.
+  </div>
+</footer>
+
+  
+  
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <script>
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      if (nav.style.display === 'flex') {
+        nav.style.display = 'none';
+      } else {
+        nav.style.display = 'flex';
+        nav.style.flexDirection = 'column';
+        nav.style.position = 'absolute';
+        nav.style.top = '70px';
+        nav.style.right = '0';
+        nav.style.background = '#667eea';
+        nav.style.width = '100%';
+        nav.style.textAlign = 'center';
+        nav.style.gap = '20px';
+        nav.style.padding = '20px 0';
+      }
+    }
+
+    function adjustNav() {
+      const nav = document.getElementById('navLinks');
+      const burger = document.getElementById('hamburger');
+      if (mediaQuery.matches) {
+        nav.style.display = 'none';
+        burger.style.display = 'block';
+      } else {
+        nav.style.display = 'flex';
+        nav.style.flexDirection = 'row';
+        nav.style.position = 'static';
+        burger.style.display = 'none';
+      }
+    }
+
+    window.onload = adjustNav;
+    window.onresize = adjustNav;
+  </script>
+
+  
+</body>
+</html>
